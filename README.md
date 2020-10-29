@@ -13,8 +13,7 @@ This is a Python web application where users write and post ideas to change the 
 * navigate to the cloned folder by `cd Pitchs`
 * run `source virtual/bin/activate`
 * pip install `requirements.txt`
-* run this command on terminal `chmod +x start.sh`
-* run `./start.py`
+* run `python3.8 manage.py server`
 * The application should work
 ## Known Bugs
 NO known bugs as at the moment.
@@ -23,8 +22,8 @@ NO known bugs as at the moment.
 | __Behavior__  | __Input example__ | __Output example__ |
 | ------------- | ----------------- | ------------------ |
 | The user should be able to view all Pitched Ideas  | "https://www.com"   | Pitched ideas |
-| The application should give the user an option to view a single category | AI | AI pitched ideas |
-| The User should see different Pitch categories | AI,ROBOTICS etc | All pitched ideas |
+| The application should give the user an option to view a single category | pickup lines | pickup line pitches |
+| The User should see different Pitch categories | interview pitch, product pitch, and promotion pitch | All pitched ideas |
 | The user should be able to sign up to the application | /sign up | successfully |
 | The application should save user credentials | username,password,email | saved |
 | The application should authenticate the users on login request  | login | true/false |
@@ -37,7 +36,7 @@ NO known bugs as at the moment.
 
 * Python
 * Material design
-* flask
+* Flask
 * JavaScript
 * CSS
 * PostgreSQL Database
