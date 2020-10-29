@@ -1,5 +1,5 @@
 .one{
-  border: 1px solid #676D67;
+  border: 1px solid rgb(47, 49, 49);
   border-width: thin;
 }
 .on{
@@ -7,18 +7,18 @@
 }
 .one:hover{
   border-color: hsl(240, 2%, 11%);
-  box-shadow: 0px 5px 10px #5e6061;
+  box-shadow: 0px 5px 10px rgb(47, 49, 49);
   transition: 250ms;
 }
 .container-fluid{
   margin: 1px;
 }
 .title{
-  background-color: #727C82  !important;
+  background-color: rgb(47, 49, 49)  !important;
   color: white;
 }
 .title:hover{
-  background-color: #305872 !important;
+  background-color: rgb(47, 49, 49) !important;
   transition: 300ms;
 }
 span{
@@ -27,7 +27,7 @@ span{
 }
 .vom{
 
-  color: #846;
+  color: rgb(46, 45, 45);
 }
 .main{
   background-image: url(../image/idea.jpg);
@@ -61,11 +61,6 @@ h1{
 .cat{
   height: 250px;
 }
-
-#R,#IoT,#D{
-  display: none;
-}
-
 img{
 
   max-width: 100%;
@@ -88,10 +83,10 @@ img{
   float: right;
 }
 .gnome{
-  color:#997;
+  color:rgb(47, 49, 49);
 }
 .body{
-  background-color: #1F3849;
+  background-color: rgb(47, 49, 49);
 }
 .pitch{
   text-align:center;
@@ -105,7 +100,7 @@ img{
 
 }
 #sho{
-  color:#16215B;
+  color:hsl(120, 89%, 50%);
 }
 .cat{
   padding:100px;
